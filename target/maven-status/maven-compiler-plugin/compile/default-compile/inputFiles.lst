@@ -1,6 +1,9 @@
-C:\Users\tobbe\Documents\Programming\Java\Maven\FinanceCalc\src\main\java\org\boil\Main.java
-C:\Users\tobbe\Documents\Programming\Java\Maven\FinanceCalc\src\main\java\org\boil\panels\ExpenseGraphPanel.java
-C:\Users\tobbe\Documents\Programming\Java\Maven\FinanceCalc\src\main\java\org\boil\panels\ExpensePanel.java
-C:\Users\tobbe\Documents\Programming\Java\Maven\FinanceCalc\src\main\java\org\boil\panels\IncomePanel.java
-C:\Users\tobbe\Documents\Programming\Java\Maven\FinanceCalc\src\main\java\org\boil\panels\TabPanel.java
-C:\Users\tobbe\Documents\Programming\Java\Maven\FinanceCalc\src\main\java\org\boil\window\WindowHandler.java
+/Users/tobiasandersson/Documents/Programming/Java/FinanceCalculator/src/main/java/org/boil/Main.java
+/Users/tobiasandersson/Documents/Programming/Java/FinanceCalculator/src/main/java/org/boil/panels/ITabChangedEvent.java
+/Users/tobiasandersson/Documents/Programming/Java/FinanceCalculator/src/main/java/org/boil/panels/Tab.java
+/Users/tobiasandersson/Documents/Programming/Java/FinanceCalculator/src/main/java/org/boil/panels/TabPanel.java
+/Users/tobiasandersson/Documents/Programming/Java/FinanceCalculator/src/main/java/org/boil/panels/tabs/overview/ExpenseGraphPanel.java
+/Users/tobiasandersson/Documents/Programming/Java/FinanceCalculator/src/main/java/org/boil/panels/tabs/overview/ExpensePanel.java
+/Users/tobiasandersson/Documents/Programming/Java/FinanceCalculator/src/main/java/org/boil/panels/tabs/overview/IncomePanel.java
+/Users/tobiasandersson/Documents/Programming/Java/FinanceCalculator/src/main/java/org/boil/panels/tabs/overview/OverviewTab.java
+/Users/tobiasandersson/Documents/Programming/Java/FinanceCalculator/src/main/java/org/boil/window/WindowHandler.java

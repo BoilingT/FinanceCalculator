@@ -25,23 +25,29 @@ public class TabPanel extends JPanel implements ActionListener {
         gbc.fill = GridBagConstraints.BOTH;
         for (int i = 0; i < btns.size(); i++){
             JButton btn = btns.get(i);
-            btn.setBackground(Color.GRAY);
+            btn.setBackground(Color.WHITE);
+            btn.setForeground(Color.BLACK);
             btn.addActionListener(this);
             btn.setFocusable(false);
             btn.setBorder(null);
             gbc.gridy = i;
             this.add(btn, gbc);
         }
-        btns.getFirst().setBackground(Color.WHITE);
+        btns.getFirst().setBackground(Color.BLACK);
+        btns.getFirst().setForeground(Color.WHITE);
 
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
         JButton source = (JButton) e.getSource();
-        source.setBackground(Color.WHITE);
+        source.setBackground(Color.BLACK);
+        source.setForeground(Color.WHITE);
         for (JButton btn : btns){
-            if(!btn.equals(source)) btn.setBackground(Color.GRAY);
+            if(!btn.equals(source)) {
+                btn.setBackground(Color.WHITE);
+                btn.setForeground(Color.BLACK);
+            }
         }
 
         tabChangedEvent.tabChanged();
